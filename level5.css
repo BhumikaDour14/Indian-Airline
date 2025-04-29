@@ -1,0 +1,81 @@
+/* div{
+    height:100px;
+    width:100px;
+    background-color: blue;
+    position: absolute;
+    top:40%;
+    left:50%;
+    animation-name: bhu;
+    animation-duration: 2s; */
+    /* animation-timing-function: ease-in; */
+ /* animation-delay: 0s;
+ animation-iteration-count:infinite ;
+ animation-direction:alternate; */
+/* SHORTHAND ANIMATION
+    animation:myName|direction|timimg-fq|delay|iteration count|direction*/
+
+
+    /* transition-property: all; */
+ /* duration  helps ki kitne time me pura transition complete hoga */
+    /* transition-duration: 2s; */
+ /* timing fq helps in traction in 3 steps or any no. oh steps */
+    /* transition-timing-function:steps(0); */
+/* delay helps in ki kitne deer baad transition start hoga */
+    /* transition-delay:2ms; */
+/* SHORTHAND TRANSITION
+Property name|duration|timimg-function|delay */
+
+    /* rotate : z 90deg; */
+/* we can rotate by any degree and wrt x y z axis */
+/* 
+} */
+
+/* AMIMATIONS */
+    /* @keyframes bhu { */
+    /* from { background-color:blue;}
+    to {background-color: coral;} */
+    /* from { left:100px;
+    background-color: blue;}
+    to {right:300px;
+    background-color: chartreuse;
+    color:red;} */
+/* } */
+
+/* 
+div:hover { */
+    /* background-color: bisque;
+    font-size: 20px;
+    font-style: oblique; */
+/* in this transform scale hum usko bada chota kar sakte 
+according to X andY axis also scaleX(3); */
+/* transform:scale(3); */
+
+/* in this translate function we can move the box for left use -ve and for right use +ve */
+/* transform: translateX(-200px);
+transform: skew(45deg); */
+/* }
+div:active{
+    background-color: chartreuse;
+    color:brown;
+    text-align :right; */
+    /* this rotate ka box by 180 degree */
+/* transform:rotate(180deg);
+}*/
+
+.loder{
+    height: 300px;
+    width:300px;
+    background-color:beige;
+    border:30px solid red;
+    border-left:30px solid black ;
+    border-radius:50%;
+    animation-name: bhu;
+    animation-iteration-count: infinite;
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
+}  
+@keyframes bhu{
+    from{transform:rotate(0deg);
+    }
+    to{ transform:rotate(360deg);}
+}

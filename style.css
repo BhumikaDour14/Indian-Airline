@@ -1,0 +1,62 @@
+/* pue content ki font family ko change karne ke liye we use this
+
+*{
+font-family: arial;
+} 
+
+(*)this symol is universal sab per use karne ke liye
+*/
+h2{
+    color :cadetblue;
+    text-align: center;
+   
+    
+}
+#one{
+    text-decoration:wavy underline;
+    
+}
+#two{
+    font-family:verdana ;
+    line-height:10px;
+}
+#three{
+    font-size: 25px;
+    line-height:normal ;
+    text-transform:capitalize;
+}
+div{
+    height:50px;
+    width:100px;
+    background-color:rgb(164, 164, 240);
+/* border-width:5px;
+border-color: brown;
+border-style: double; */
+/* or we can use border shorthand */
+border: 5px double brown;
+}
+#div1{
+    height:100px;
+    width: 100px;
+    /* text-align: center; */
+    background-color:yellow;
+    border-width: 4px;
+    border-style: solid;
+    border-color:blueviolet;
+    border-radius :30px; /*px can also be used instead of % */
+    padding: 5px;
+    margin-bottom:10px ;
+    /* for shorthand padding we write
+    padding:top right bottom left
+    padding: 1px 2px 3px 4px;
+    or wecan directy give same value to padding
+    padding:50px; */
+}
+#div2{
+    border-radius:10px ;
+    border-color:black;
+padding-top:7px ;
+border-style:solid;
+border-width:3px;
+margin:1px ;
+}

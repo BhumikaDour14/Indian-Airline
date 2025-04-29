@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    font-family: Arial;
+
+}
+
+.navbar {
+   
+    height: 140px;
+    background-color:white;
+    color:black;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+   
+    
+}
+
+#logo_image{
+    height:150px;
+    width:170px;
+      margin-left: 10px;
+}
+
+.nav_links{
+    height: 20px;
+    margin: 60px 10px;
+    
+    
+}
+#tagline{
+    margin-top: 70px;
+    margin-right: 450px;
+    height: 40px;
+    color: rgb(112, 1, 1);
+    font-weight: 800;
+    padding: 0;
+    
+    
+}
+
+.panel{
+    height:60px;
+    width:1250px;
+    background-color: #790808;
+     display:flex;
+    justify-content:space-evenly;
+    align-items: center;
+    
+}
+/* .image{
+    width:100%;
+    opacity:.5;
+
+}
+.main_head img{
+    width:78rem;
+    height:30rem;} */
+
+.main_head{
+    height:30rem;
+    width:78rem;
+    /* display:flex;
+    justify-content: center;
+    align-items: center; */
+    background-image: url("https://t3.ftcdn.net/jpg/05/04/36/84/360_F_504368477_XGrt6brpAmFWPfjWGnPJD9bLU6Gi35yG.jpg");
+    background-size: cover;
+    padding:20px 0 40px;
+    background-repeat: no-repeat;
+    text-align: center;
+    position: relative;
+    background-position: bottom;
+
+    /* opacity:.5; */
+}
+/* #line1{
+    font-size: 2.1rem;
+    color:blueviolet;
+}
+*/ p2{
+/* font:50px Ubuntu sans-saf */
+    font-size:32px;
+    font-weight: 350;
+margin:40px 0;
+font-family: Arial, Helvetica, sans-serif;
+    
+} 
+p1{
+    /* font-size:2.2rem;
+
+ */
+ font-weight: 550;
+ font-size: 43px;
+ margin-top: 100px;
+ font-family: sans-serif;
+ margin:70px 0px 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* #home{
+  display:inline; 
+height:35px;
+width:100px;
+padding:10px;
+border-radius: 3px solid black;
+}
+*/
+
+
+
+
+/* .slider{
+    position:absolute;
+    height:25rem;
+    width:50rem;
+    border:3px solid black;
+    border-radius: 5px;
+    transform: translate(-50%,-50%);
+    /* display:flex;
+    justify-content:center;
+    align-items: center; 
+}
+.img_slider{
+ width:100%;
+ display:flex;
+ animation:slide 12s infinite;
+}
+img{
+    width:50%
+}
+@keyframes slide{
+    0%{
+        transform: translateX(0);
+    }
+    25%{
+        transform: translateX(0);
+    }
+    30%{
+        transform: translateX(-100%);
+    }
+    50%{
+        transform: translateX(-100%);
+    }
+    55%{
+        transform: translateX(-200%);
+    }
+    75%{
+        transform: translateX(-200%);
+    }
+    80%{
+        transform: translateX(-300%);
+    }
+    100%{
+        transform: translateX(-300%);
+    }
+} */
+
+/* .doner_page{
+   
+} */

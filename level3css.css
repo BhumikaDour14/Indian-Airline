@@ -1,0 +1,76 @@
+/* #box1 {
+    height:100px;
+    width:100px;
+    background-color:burlywood;
+}
+#box2{
+    height:50px;
+    width:40%;
+    background-color:darkolivegreen;
+    margin-left:10% ;
+    /* em is the unit in css
+    it copy the font side of parent  2em = 2*fontsize of parent */
+    /* font-size:2em;  */
+    /* width ka 5em means child ki fontsize ka 5 times */
+    /* width:5rem; */
+    /* Rem is another unit in css
+    it has the font size same as the fontsize of body tag */
+/* vh : relative to 1% viewport height(means the white scree we see)
+   vw : relative to 1% viewport width*/
+/* } */ 
+div{
+    height:200px;
+    width:200px;
+    border:2px solid black;
+    display: inline-block;
+}
+/*z-index:3; it means agar kisi div ko upar lana ko kisi dusre div ke to z-index ki value ko increse karte hai OR -1 value swe piche bhi laga sakte hai */
+/* #box1{
+position: sticky;
+top:0px;
+left:0px; */
+/* in static box remain in same position or degault position & not change */
+/* } */
+/* #box2{
+    /* element is relative to itself */
+    /* position:relative;
+    top:10px;
+    left:20px;
+} */
+/* #box3{ 
+    /*it means vo measure karta hai full screen se*/
+     /* position:absolute;
+left:20px;
+
+}
+#box4{ */ 
+    /* position is fixed  like if we move scree it remain fixed */
+    /* position:fixed;
+    bottom:20px;
+right:0px;
+} */
+
+/*  NOW LET'S LEARN HOW TO USE BACKGROUND IMAGE */
+body{
+    background-image: url("plane.jpg");
+    background-size: cover;
+}
+#box1{
+    background-image: url("snake_photo.jpg");
+    /* in cover it cover all the corner of box and littlebit enlarge */
+    background-size: cover;
+} 
+#box2{ 
+    background-image: url("mountain.jpg");
+    /* in contain it paste the photo if space is left it repeat the pic */
+    background-size: contain;
+}
+#box4{
+    height:100px;
+    width:100px;
+    position:fixed;
+    bottom:0px;
+    right:0px;
+    background-image: url("snake_photo.jpg");
+    background-size: cover;
+}

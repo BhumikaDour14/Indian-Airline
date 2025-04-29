@@ -1,0 +1,64 @@
+body {
+   font-family: Arial, sans-serif;
+   color: black; 
+   text-align: center;
+   
+    
+}
+
+.container {
+    background-color: rgba(98, 89, 197, 0.7);
+    background-image: url("plane.jpg");
+    background-size: cover;
+    padding:20px;
+    border-radius: 10px;
+    /* margin: auto; */
+    width: 100%;
+    
+   
+}
+
+h1, h2 {
+    margin: 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+th, td {
+    border: 1px solid #fff;
+    padding: 10px;
+}
+
+th {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+td {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+ 
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.reservation-form {
+    margin-top: 5px;
+}
+
+#message {
+    margin-top: 11px;
+    font-weight: bold;
+}

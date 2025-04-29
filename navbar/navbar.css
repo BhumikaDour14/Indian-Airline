@@ -1,0 +1,61 @@
+*{
+    padding:0;
+    margin:0;
+color: white;
+}
+#navbar{
+    height:60px;
+    background-color:#0f1111;
+}
+button{
+    background-color:#f08804;
+}
+#logo{
+    color: #f08804;
+    font-size: 25px;
+}
+a{
+    margin-right:180px ;
+}
+.contentBox{
+    height:100px;
+    width:100px;
+    border:2px solid black;
+    display:inline-block;
+}
+#content {
+height:400px;
+}
+footer{
+    text-align: center;
+    color:white;
+    background-color: #0f1111;
+}
+
+
+
+/* #d1{
+background-color: red;
+padding:25px;
+margin:25px;
+display:inline-block;
+}
+#d2{
+    background-color: blue;
+    padding:25px;
+    margin:25px;
+    /* dispaly-none is used to remove the element. */
+    /* display:none; */
+    /* display:inline-block;
+     /* visibility-hidden: it hide the element by leaving space for that element. */
+    /* visibility:hidden;
+    } */
+    /* #d3{ */
+        /* here in rgba (a) determines the color lighter & darker shade.*/
+        /* background-color: rgba(183, 0, 233,0.75);
+        padding:25px;
+        margin:25px; */
+        /* inline-block: similar to inline but we can set margin & padding.  */
+        /* display:inline-block;
+        } */
+      
