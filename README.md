@@ -17,5 +17,3 @@ Users can view available flights, book tickets, and see seat availability update
 - CSS3
 - JavaScript
 
-# 🌐 Live Demo
-   https://bhumikadour14.github.io/Indian-Airline/
